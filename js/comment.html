@@ -21,18 +21,18 @@
         <button id="btn-update">post</button>
     </div>
     <script>
-        // // step: 1 --->
-        // document.getElementById('btn-update').addEventListener('click', function(){
-        //     // step: 2 --->
-        //     const newComment = document.getElementById('new-comment');
-        //    const commentBox = newComment.value;
-        // //    step: 3 --->
-        //     const commentContainer = document.getElementById('comment-container');
-        //     const p = document.createElement('p');
-        //     p.innerText = commentBox;
-        //    commentContainer.appendChild(p);
-        //    newComment.value = '';
-        // })
+        // step: 1 --->
+        document.getElementById('btn-update').addEventListener('click', function(){
+            // step: 2 --->
+            const newComment = document.getElementById('new-comment');
+           const commentBox = newComment.value;
+        //    step: 3 --->
+            const commentContainer = document.getElementById('comment-container');
+            const p = document.createElement('p');
+            p.innerText = commentBox;
+           commentContainer.appendChild(p);
+           newComment.value = '';
+        })
 
         document.getElementById('btn-update').addEventListener('click', function(){
             const newComment = document.getElementById('new-comment');
